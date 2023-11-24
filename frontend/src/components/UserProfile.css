@@ -1,0 +1,28 @@
+.user-profile-container {
+  max-width: 600px;
+  margin: 30px auto;
+  padding: 20px;
+  border: 1px solid #e0e0e0;
+  border-radius: 8px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  background-color: #fff;
+}
+
+.user-profile-header {
+  text-align: left;
+  margin-bottom: 20px;
+  color: #333;
+  font-size: 24px;
+  font-weight: bold;
+}
+
+.user-detail {
+  margin-bottom: 10px;
+  font-size: 16px;
+  color: #555;
+}
+
+.user-detail strong {
+  color: #333;
+  margin-right: 5px;
+}

@@ -1,0 +1,20 @@
+/* Home.css */
+.home-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh; /* Full viewport height */
+  background-color: #f7f7f7;
+  color: #333;
+  font-size: 24px;
+  font-weight: bold;
+  text-align: center;
+}
+
+.welcome-message {
+  padding: 20px;
+  border-radius: 8px;
+  box-shadow: 0 2px 6px rgba(0, 0, 0, 0.2);
+  background-color: #fff;
+  margin: auto;
+}

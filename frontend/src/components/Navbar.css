@@ -1,0 +1,65 @@
+/* Navbar.css */
+.navbar {
+  display: flex;
+  justify-content: flex-end; /* Align items to the right */
+  align-items: center;
+  padding: 10px 20px;
+  background-color: #ffffff;
+  border-bottom: 2px solid #eaeaea;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.05);
+}
+
+.nav-item {
+  margin-left: 15px; /* Adjusted to margin-left for spacing */
+  text-decoration: none;
+  color: #333;
+  font-size: 16px;
+  padding: 8px 12px;
+  border-radius: 4px;
+  transition: background-color 0.3s, color 0.3s;
+}
+
+.nav-item:hover,
+.logout-btn:hover {
+  background-color: #f2f2f2;
+  color: #007bff;
+}
+
+.logout-btn {
+  border: 1px solid;
+  background: none;
+  cursor: pointer;
+  padding: 8px 12px;
+  color: #333;
+  font-size: 14px;
+  border-radius: 4px;
+  transition: background-color 0.3s, color 0.3s;
+}
+
+/* Navbar.css */
+.nav-signup-btn {
+  background-color: #007bff;
+  color: #fff;
+  text-align: center;
+  padding: 8px 12px;
+  border-radius: 4px;
+  transition: background-color 0.3s;
+}
+
+.nav-signup-btn:hover {
+  background-color: #0056b3;
+  color: #fff;
+}
+
+/* Responsive design for smaller screens */
+@media (max-width: 600px) {
+  .navbar {
+    flex-direction: column;
+    align-items: flex-start; /* Align items to start for smaller screens */
+  }
+
+  .nav-item {
+    margin-left: 0;
+    margin-bottom: 8px;
+  }
+}

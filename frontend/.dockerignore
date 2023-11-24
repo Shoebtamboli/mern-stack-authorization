@@ -1,0 +1,37 @@
+# Dependency directories
+node_modules/
+npm-debug.log
+
+# Build artifacts
+/build/
+/.cache/
+
+# Git and continuous integration
+.git/
+.gitignore
+.dockerignore
+.gitattributes
+.travis.yml
+.circleci/
+
+# Editor directories and files
+.idea/
+.vscode/
+*.suo
+*.ntvs*
+*.njsproj
+*.sln
+*.sw?
+*.swp
+
+# OS generated files
+.DS_Store
+.DS_Store?
+._*
+.Spotlight-V100
+.Trashes
+ehthumbs.db
+Thumbs.db
+
+# Logs
+*.log
