@@ -20,7 +20,7 @@ function Signup() {
     e.preventDefault();
     try {
       const response = await axios.post(
-        "http://localhost:5000/auth/signup",
+        `${process.env.MONGO_URI}/auth/signup`,
         formData
       );
       setMessage(response.data.message);

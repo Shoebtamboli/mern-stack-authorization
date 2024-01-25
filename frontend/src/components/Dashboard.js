@@ -12,7 +12,7 @@ function Dashboard() {
   useEffect(() => {
     const fetchUsers = async () => {
       try {
-        const response = await axios.get("http://localhost:5000/users", {
+        const response = await axios.get(`${process.env.MONGO_URI}/users`, {
           headers: {
             Authorization: `Bearer ${localStorage.getItem("token")}`,
           },

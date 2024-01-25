@@ -18,7 +18,7 @@ function Login() {
     e.preventDefault();
     try {
       const response = await axios.post(
-        "http://localhost:5000/auth/login",
+        `${process.env.MONGO_URI}/auth/login`,
         formData
       );
       login(response.data);
