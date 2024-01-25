@@ -18,7 +18,7 @@ function Login() {
     e.preventDefault();
     try {
       const response = await axios.post(
-        `${process.env.MONGO_URI}/auth/login`,
+        `${process.env.REACT_APP_API_URL}/auth/login`,
         formData
       );
       login(response.data);
